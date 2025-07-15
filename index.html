@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GreenScape Landscaping - Glassmorphic Landing Page</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    color: #fff;
+  }
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .glass {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 50px;
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .service-card {
+    flex: 1;
+    min-width: 250px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+  .service-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  button {
+    background: #fff;
+    color: #4CAF50;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  button:hover {
+    background: #f1f1f1;
+  }
+  footer {
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+  }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<section style="background-image: url('https://picsum.photos/id/1018/1200/800');">
+  <div class="glass">
+    <h1>GreenScape Landscaping</h1>
+    <p>Crafting outdoor spaces that make you feel at home with nature.</p>
+    <button>Get a Free Quote</button>
+  </div>
+</section>
+
+<!-- About -->
+<section style="background-image: url('https://picsum.photos/id/1043/1200/800');">
+  <div class="glass">
+    <h2>About Us</h2>
+    <p>We transform gardens, lawns, and outdoor spaces into vibrant, beautiful, and functional environments using modern landscaping techniques.</p>
+  </div>
+</section>
+
+<!-- Services -->
+<section style="background-image: url('https://picsum.photos/id/1039/1200/800');">
+  <div class="glass">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <img src="https://picsum.photos/id/1020/400/250" alt="Garden Design">
+        <h3>Garden Design</h3>
+        <p>Creative layouts with a balance of aesthetics and sustainability.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://picsum.photos/id/1022/400/250" alt="Lawn Care">
+        <h3>Lawn Care</h3>
+        <p>Professional care to keep your lawn lush, green, and healthy year-round.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://picsum.photos/id/1037/400/250" alt="Outdoor Lighting">
+        <h3>Outdoor Lighting</h3>
+        <p>Elegant lighting that brings charm and safety to your nights outdoors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call To Action -->
+<section style="background-image: url('https://picsum.photos/id/1050/1200/800');">
+  <div class="glass">
+    <h2>Transform Your Outdoors Today!</h2>
+    <p>Book a free consultation with our landscaping experts and let's design your perfect outdoor retreat.</p>
+    <button onclick="alert('We will contact you soon!')">Request a Free Visit</button>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 GreenScape Landscaping | Phone: +123-456-7890 | Email: info@greenscape.com</p>
+</footer>
+
+</body>
+</html>
